@@ -1,11 +1,16 @@
 class Settings:
-    # Окно (увеличим для больших спрайтов)
+    # Базовые настройки
+    TILE_SIZE = 16
+    VIRTUAL_WIDTH = 18 * TILE_SIZE  # 640 (40 тайлов)
+    VIRTUAL_HEIGHT = 12 * TILE_SIZE  # 320 (20 тайлов)
+    
+    # Окно (может быть больше виртуального экрана)
     SCREEN_WIDTH = 1280
     SCREEN_HEIGHT = 720
     FPS = 60
     
     # Игрок
-    PLAYER_SPEED = 1  # Базовая скорость (будет умножена в Player)
+    PLAYER_SPEED = 0.5
     
     # Отладка
     SHOW_FPS = True

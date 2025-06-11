@@ -6,8 +6,9 @@ class Camera:
         self.offset = pygame.math.Vector2()
     
     def update(self):
-        target_x = self.game.player.rect.centerx - self.game.settings.SCREEN_WIDTH // 2
-        target_y = self.game.player.rect.centery - self.game.settings.SCREEN_HEIGHT // 2
+        # Используем размеры виртуального экрана
+        target_x = self.game.player.rect.centerx - self.game.settings.VIRTUAL_WIDTH // 2
+        target_y = self.game.player.rect.centery - self.game.settings.VIRTUAL_HEIGHT // 2
         
         # Плавное следование камеры
         self.offset.x += (target_x - self.offset.x) * 0.1

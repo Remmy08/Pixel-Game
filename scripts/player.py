@@ -20,7 +20,7 @@ class Player:
         
         # Позиция и хитбокс
         self.position = pygame.math.Vector2(50, 50)
-        self.hitbox_size = 16  # Фиксированный размер хитбокса 32x32
+        self.hitbox_size = 12  # Фиксированный размер хитбокса 32x32
         self._init_hitbox()
         
         # Физика и движение
