@@ -51,6 +51,9 @@ class Game:
     
     def run(self):
         while True:
+            # Рассчитываем delta time для плавной анимации
+            dt = self.clock.tick(self.settings.FPS) / 1000.0  # В секундах
+            
             # Обработка событий
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
@@ -62,20 +65,43 @@ class Game:
                         sys.exit()
                     if event.key == pygame.K_F1:
                         self.settings.SHOW_COLLISIONS = not self.settings.SHOW_COLLISIONS
+                    if event.key == pygame.K_q:
+                        # Переключение инструмента (если реализовано)
+                        if hasattr(self.player, 'switch_tool'):
+                            self.player.switch_tool()
             
-            # Обновление
-            self.player.update()
+            # Обновление игровой логики с передачей delta time
+            self.player.update(dt)  # Теперь передаем dt
             self.camera.update()
             
             # Отрисовка
             self.screen.fill(self.settings.BACKGROUND)
-            self.tilemap.draw_collisions(self.screen, self.camera)
-            pygame.draw.rect(self.screen, self.settings.PLAYER_COLOR,
-                           self.camera.apply(self.player.rect))
+            
+            # Рисуем коллизии (если включено)
+            if hasattr(self.tilemap, 'draw_collisions'):
+                self.tilemap.draw_collisions(self.screen, self.camera)
+            
+            # Рисуем игрока (новый метод draw)
+            self.player.draw(self.screen, self.camera)
+            
+            # Отладочная информация
             self.debug.show()
             
+            # Дополнительная отладочная информация
+            debug_text = [
+                f"Animation: {self.player.animation.current_animation}",
+                f"Frame: {self.player.animation.current_frame}",
+                f"Direction: {self.player.direction}"
+            ]
+            
+            if hasattr(self.player, 'current_tool'):
+                debug_text.append(f"Tool: {self.player.current_tool} (Q to switch)")
+            
+            for i, text in enumerate(debug_text):
+                text_surface = self.debug.font.render(text, True, self.settings.DEBUG_TEXT)
+                self.screen.blit(text_surface, (10, 90 + i * 20))
+            
             pygame.display.flip()
-            self.clock.tick(self.settings.FPS)
 
 if __name__ == "__main__":
     game = Game()

@@ -1,22 +1,17 @@
 class Settings:
-    # Окно
-    SCREEN_WIDTH = 1024
-    SCREEN_HEIGHT = 768
+    # Окно (увеличим для больших спрайтов)
+    SCREEN_WIDTH = 1280
+    SCREEN_HEIGHT = 720
     FPS = 60
     
-    # Тайлы
-    TILE_SIZE = 16  # 16x16 пикселей
-    
     # Игрок
-    PLAYER_SPEED = 3
+    PLAYER_SPEED = 3  # Базовая скорость (будет умножена в Player)
     
     # Отладка
     SHOW_FPS = True
     SHOW_POSITION = True
-    SHOW_COLLISIONS = False  # Для визуализации коллизий
+    SHOW_COLLISIONS = False
     
     # Цвета
     BACKGROUND = (40, 44, 52)
-    PLAYER_COLOR = (86, 156, 214)
     DEBUG_TEXT = (220, 220, 170)
-    COLLISION_COLOR = (255, 0, 0, 100)  # Полупрозрачный красный
