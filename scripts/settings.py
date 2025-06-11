@@ -5,7 +5,7 @@ class Settings:
     FPS = 60
     
     # Игрок
-    PLAYER_SPEED = 3  # Базовая скорость (будет умножена в Player)
+    PLAYER_SPEED = 1  # Базовая скорость (будет умножена в Player)
     
     # Отладка
     SHOW_FPS = True
