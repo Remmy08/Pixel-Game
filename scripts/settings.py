@@ -20,3 +20,6 @@ class Settings:
     # Цвета
     BACKGROUND = (40, 44, 52)
     DEBUG_TEXT = (220, 220, 170)
+    
+    SHOW_DEBUG = False  # Включает всю отладочную информацию
+    SHOW_COLLISIONS = False  # Можно оставить для отдельных случаев

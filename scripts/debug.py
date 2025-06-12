@@ -7,6 +7,9 @@ class DebugDisplay:
     
     def show(self, surface=None):
         # Если surface не указан, используем основной экран
+        if not self.game.settings.SHOW_DEBUG:
+            return
+        
         target_surface = surface if surface is not None else self.game.screen
         
         if self.game.settings.SHOW_FPS:

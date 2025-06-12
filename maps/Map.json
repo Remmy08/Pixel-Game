@@ -766,9 +766,24 @@
                          "name":"",
                          "properties":[
                                 {
-                                 "name":"drops",
+                                 "name":"drop_item",
                                  "type":"string",
-                                 "value":"wood:3"
+                                 "value":"wood"
+                                }, 
+                                {
+                                 "name":"drop_max",
+                                 "type":"int",
+                                 "value":4
+                                }, 
+                                {
+                                 "name":"drop_min",
+                                 "type":"int",
+                                 "value":2
+                                }, 
+                                {
+                                 "name":"entity_type",
+                                 "type":"string",
+                                 "value":"tree"
                                 }, 
                                 {
                                  "name":"health",
@@ -776,29 +791,9 @@
                                  "value":30
                                 }, 
                                 {
-                                 "name":"is_cuttable",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"parts",
-                                 "type":"int",
-                                 "value":4
-                                }, 
-                                {
-                                 "name":"resource_type",
-                                 "type":"string",
-                                 "value":"tree"
-                                }, 
-                                {
                                  "name":"respawn_time",
-                                 "type":"int",
-                                 "value":120
-                                }, 
-                                {
-                                 "name":"tree_id",
-                                 "type":"string",
-                                 "value":"oak_1"
+                                 "type":"float",
+                                 "value":60
                                 }],
                          "rotation":0,
                          "type":"",
@@ -813,9 +808,24 @@
                          "name":"",
                          "properties":[
                                 {
-                                 "name":"drops",
+                                 "name":"drop_item",
                                  "type":"string",
-                                 "value":"wood:3"
+                                 "value":"wood"
+                                }, 
+                                {
+                                 "name":"drop_max",
+                                 "type":"int",
+                                 "value":4
+                                }, 
+                                {
+                                 "name":"drop_min",
+                                 "type":"int",
+                                 "value":2
+                                }, 
+                                {
+                                 "name":"entity_type",
+                                 "type":"string",
+                                 "value":"tree"
                                 }, 
                                 {
                                  "name":"health",
@@ -823,29 +833,9 @@
                                  "value":30
                                 }, 
                                 {
-                                 "name":"is_cuttable",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"parts",
-                                 "type":"int",
-                                 "value":4
-                                }, 
-                                {
-                                 "name":"resource_type",
-                                 "type":"string",
-                                 "value":"tree"
-                                }, 
-                                {
                                  "name":"respawn_time",
-                                 "type":"int",
-                                 "value":120
-                                }, 
-                                {
-                                 "name":"tree_id",
-                                 "type":"string",
-                                 "value":"oak_2"
+                                 "type":"float",
+                                 "value":60
                                 }],
                          "rotation":0,
                          "type":"",
@@ -860,9 +850,24 @@
                          "name":"",
                          "properties":[
                                 {
-                                 "name":"drops",
+                                 "name":"drop_item",
                                  "type":"string",
-                                 "value":"wood:3"
+                                 "value":"wood"
+                                }, 
+                                {
+                                 "name":"drop_max",
+                                 "type":"int",
+                                 "value":4
+                                }, 
+                                {
+                                 "name":"drop_min",
+                                 "type":"int",
+                                 "value":2
+                                }, 
+                                {
+                                 "name":"entity_type",
+                                 "type":"string",
+                                 "value":"tree"
                                 }, 
                                 {
                                  "name":"health",
@@ -870,29 +875,9 @@
                                  "value":30
                                 }, 
                                 {
-                                 "name":"is_cuttable",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"parts",
-                                 "type":"int",
-                                 "value":4
-                                }, 
-                                {
-                                 "name":"resource_type",
-                                 "type":"string",
-                                 "value":"tree"
-                                }, 
-                                {
                                  "name":"respawn_time",
-                                 "type":"int",
-                                 "value":120
-                                }, 
-                                {
-                                 "name":"tree_id",
-                                 "type":"string",
-                                 "value":"oak_3"
+                                 "type":"float",
+                                 "value":60
                                 }],
                          "rotation":0,
                          "type":"",
@@ -907,9 +892,24 @@
                          "name":"",
                          "properties":[
                                 {
-                                 "name":"drops",
+                                 "name":"drop_item",
                                  "type":"string",
-                                 "value":"wood:3"
+                                 "value":"wood"
+                                }, 
+                                {
+                                 "name":"drop_max",
+                                 "type":"int",
+                                 "value":4
+                                }, 
+                                {
+                                 "name":"drop_min",
+                                 "type":"int",
+                                 "value":2
+                                }, 
+                                {
+                                 "name":"entity_type",
+                                 "type":"string",
+                                 "value":"tree"
                                 }, 
                                 {
                                  "name":"health",
@@ -917,29 +917,9 @@
                                  "value":30
                                 }, 
                                 {
-                                 "name":"is_cuttable",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"parts",
-                                 "type":"int",
-                                 "value":4
-                                }, 
-                                {
-                                 "name":"resource_type",
-                                 "type":"string",
-                                 "value":"tree"
-                                }, 
-                                {
                                  "name":"respawn_time",
-                                 "type":"int",
-                                 "value":120
-                                }, 
-                                {
-                                 "name":"tree_id",
-                                 "type":"string",
-                                 "value":"oak_4"
+                                 "type":"float",
+                                 "value":60
                                 }],
                          "rotation":0,
                          "type":"",
@@ -954,9 +934,24 @@
                          "name":"",
                          "properties":[
                                 {
-                                 "name":"drops",
+                                 "name":"drop_item",
                                  "type":"string",
-                                 "value":"wood:3"
+                                 "value":"wood"
+                                }, 
+                                {
+                                 "name":"drop_max",
+                                 "type":"int",
+                                 "value":4
+                                }, 
+                                {
+                                 "name":"drop_min",
+                                 "type":"int",
+                                 "value":2
+                                }, 
+                                {
+                                 "name":"entity_type",
+                                 "type":"string",
+                                 "value":"tree"
                                 }, 
                                 {
                                  "name":"health",
@@ -964,29 +959,9 @@
                                  "value":30
                                 }, 
                                 {
-                                 "name":"is_cuttable",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"parts",
-                                 "type":"int",
-                                 "value":4
-                                }, 
-                                {
-                                 "name":"resource_type",
-                                 "type":"string",
-                                 "value":"tree"
-                                }, 
-                                {
                                  "name":"respawn_time",
-                                 "type":"int",
-                                 "value":120
-                                }, 
-                                {
-                                 "name":"tree_id",
-                                 "type":"string",
-                                 "value":"oak_5"
+                                 "type":"float",
+                                 "value":60
                                 }],
                          "rotation":0,
                          "type":"",
@@ -1001,9 +976,24 @@
                          "name":"",
                          "properties":[
                                 {
-                                 "name":"drops",
+                                 "name":"drop_item",
                                  "type":"string",
-                                 "value":"wood:3"
+                                 "value":"wood"
+                                }, 
+                                {
+                                 "name":"drop_max",
+                                 "type":"int",
+                                 "value":4
+                                }, 
+                                {
+                                 "name":"drop_min",
+                                 "type":"int",
+                                 "value":2
+                                }, 
+                                {
+                                 "name":"entity_type",
+                                 "type":"string",
+                                 "value":"tree"
                                 }, 
                                 {
                                  "name":"health",
@@ -1011,29 +1001,9 @@
                                  "value":30
                                 }, 
                                 {
-                                 "name":"is_cuttable",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"parts",
-                                 "type":"int",
-                                 "value":4
-                                }, 
-                                {
-                                 "name":"resource_type",
-                                 "type":"string",
-                                 "value":"tree"
-                                }, 
-                                {
                                  "name":"respawn_time",
-                                 "type":"int",
-                                 "value":120
-                                }, 
-                                {
-                                 "name":"tree_id",
-                                 "type":"string",
-                                 "value":"oak_6"
+                                 "type":"float",
+                                 "value":60
                                 }],
                          "rotation":0,
                          "type":"",
@@ -1048,9 +1018,24 @@
                          "name":"",
                          "properties":[
                                 {
-                                 "name":"drops",
+                                 "name":"drop_item",
                                  "type":"string",
-                                 "value":"wood:3"
+                                 "value":"wood"
+                                }, 
+                                {
+                                 "name":"drop_max",
+                                 "type":"int",
+                                 "value":4
+                                }, 
+                                {
+                                 "name":"drop_min",
+                                 "type":"int",
+                                 "value":2
+                                }, 
+                                {
+                                 "name":"entity_type",
+                                 "type":"string",
+                                 "value":"tree"
                                 }, 
                                 {
                                  "name":"health",
@@ -1058,29 +1043,9 @@
                                  "value":30
                                 }, 
                                 {
-                                 "name":"is_cuttable",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"parts",
-                                 "type":"int",
-                                 "value":4
-                                }, 
-                                {
-                                 "name":"resource_type",
-                                 "type":"string",
-                                 "value":"tree"
-                                }, 
-                                {
                                  "name":"respawn_time",
-                                 "type":"int",
-                                 "value":120
-                                }, 
-                                {
-                                 "name":"tree_id",
-                                 "type":"string",
-                                 "value":"oak_7"
+                                 "type":"float",
+                                 "value":60
                                 }],
                          "rotation":0,
                          "type":"",
@@ -1095,9 +1060,24 @@
                          "name":"",
                          "properties":[
                                 {
-                                 "name":"drops",
+                                 "name":"drop_item",
                                  "type":"string",
-                                 "value":"wood:3"
+                                 "value":"wood"
+                                }, 
+                                {
+                                 "name":"drop_max",
+                                 "type":"int",
+                                 "value":4
+                                }, 
+                                {
+                                 "name":"drop_min",
+                                 "type":"int",
+                                 "value":2
+                                }, 
+                                {
+                                 "name":"entity_type",
+                                 "type":"string",
+                                 "value":"tree"
                                 }, 
                                 {
                                  "name":"health",
@@ -1105,29 +1085,9 @@
                                  "value":30
                                 }, 
                                 {
-                                 "name":"is_cuttable",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"parts",
-                                 "type":"int",
-                                 "value":4
-                                }, 
-                                {
-                                 "name":"resource_type",
-                                 "type":"string",
-                                 "value":"tree"
-                                }, 
-                                {
                                  "name":"respawn_time",
-                                 "type":"int",
-                                 "value":120
-                                }, 
-                                {
-                                 "name":"tree_id",
-                                 "type":"string",
-                                 "value":"oak_8"
+                                 "type":"float",
+                                 "value":60
                                 }],
                          "rotation":0,
                          "type":"",
@@ -1507,7 +1467,7 @@
          "height":110,
          "id":19,
          "name":"Collisions",
-         "opacity":1,
+         "opacity":0,
          "type":"tilelayer",
          "visible":true,
          "width":110,
@@ -1533,7 +1493,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }],

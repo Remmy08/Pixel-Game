@@ -55,6 +55,7 @@ class Game:
                         if event.key == pygame.K_e:
                             self._handle_interaction()
                         if event.key == pygame.K_F1:
+                            self.settings.SHOW_DEBUG = not self.settings.SHOW_DEBUG
                             self.settings.SHOW_COLLISIONS = not self.settings.SHOW_COLLISIONS
                 
                 self.player.update(dt)
